@@ -1,3 +1,11 @@
-export class HeaderComponent{
+
+
+@Component({
 	
+})
+
+
+
+export class HeaderComponent{
+
 }
