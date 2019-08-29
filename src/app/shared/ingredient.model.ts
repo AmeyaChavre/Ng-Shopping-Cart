@@ -7,3 +7,4 @@ export class Ingredient{
 		//this.amount=amount;
 	}
 }
+// There are different ways of achieving the same results as shown above
