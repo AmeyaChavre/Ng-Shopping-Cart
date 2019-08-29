@@ -3,7 +3,7 @@ export class Recipe{
 	public description:string;
 	public imagePath:string;
 
-	constructor(name:string,description:string){
+	constructor(name:string,description:string,imagePath:string){
 
 	}	
 }
