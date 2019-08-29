@@ -4,6 +4,6 @@ export class Recipe{
 	public imagePath:string;
 
 	constructor(name:string,description:string,imagePath:string){
-
+		this.name=name;
 	}	
 }
