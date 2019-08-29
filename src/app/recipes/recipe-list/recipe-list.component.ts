@@ -9,7 +9,7 @@ export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [ 
   new Recipe('Test Recipe', 'This is a test recipe', 
-  	'https://upload.wikimedia.org/wikipedia/commons/b/b1/Coneyhdog.jpg') 
+  	'https://upload.wikimedia.org/wikipedia/commons/b/b1/Coneyhdog.jpg'), 
   ];
 
   constructor() { }
