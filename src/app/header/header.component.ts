@@ -9,4 +9,6 @@ templateUrl: './header.component.html'
 
 export class HeaderComponent{
 
+	featureSelected = new EventEmitter<string>();
+
 }
