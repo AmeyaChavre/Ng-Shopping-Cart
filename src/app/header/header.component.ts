@@ -12,7 +12,7 @@ export class HeaderComponent{
 	featureSelected = new EventEmitter<string>();
 
 	onSelect(feature: string){
-
+		this.featureSelected.emit(feature);
 	}
 
 }
