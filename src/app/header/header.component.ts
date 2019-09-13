@@ -11,8 +11,8 @@ export class HeaderComponent{
 
 	featureSelected = new EventEmitter<string>();
 
-	onSelect(){
-		
+	onSelect(feature: string){
+
 	}
 
 }
