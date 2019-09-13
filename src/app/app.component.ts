@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'ShopNCook';
 
-  loadedFeature = 'recipe';
+  loadedFeature = 'recipe'; // by default recipe component will be rendered
 
   onNavigate(feature: string){
   	this.loadedFeature = feature;
