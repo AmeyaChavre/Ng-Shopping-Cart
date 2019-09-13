@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'ShopNCook';
 
   loadedFeature = 'recipe';
-  
-  onNavigate(feature: string){
 
+  onNavigate(feature: string){
+  	this.loadedFeature = feature;
   }
 }
