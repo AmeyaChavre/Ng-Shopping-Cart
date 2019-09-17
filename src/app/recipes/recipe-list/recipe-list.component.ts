@@ -7,7 +7,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
 
-  recipeWasSelected = new EventEmitter<>();
+  recipeWasSelected = new EventEmitter<Recipe>();
 
   recipes: Recipe[] = [ 
   new Recipe('Hot Dog', 'This is a recipe for Hot Dog', 
