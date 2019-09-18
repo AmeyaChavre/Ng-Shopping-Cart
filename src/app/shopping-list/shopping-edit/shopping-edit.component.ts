@@ -7,7 +7,7 @@ import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 })
 export class ShoppingEditComponent implements OnInit {
   
-  @ViewChild('nameInput') nameInputRef: ElementRef;	
+  @ViewChild('nameInput', { static : false }) nameInputRef: ElementRef;	
 
   constructor() { }
 
