@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-shopping-edit',
@@ -7,7 +7,7 @@ import { Component, OnInit, ElementRef } from '@angular/core';
 })
 export class ShoppingEditComponent implements OnInit {
   
-  nameInputRef: ElementRef;	
+  @ViewChild('nameInput') nameInputRef: ElementRef;	
 
   constructor() { }
 
