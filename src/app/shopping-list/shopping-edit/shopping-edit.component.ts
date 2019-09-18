@@ -8,6 +8,7 @@ import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 export class ShoppingEditComponent implements OnInit {
   
   @ViewChild('nameInput', { static : false }) nameInputRef: ElementRef;	
+  @ViewChild('amountInput', { static : false }) amountInputRef: ElementRef;
 
   constructor() { }
 
