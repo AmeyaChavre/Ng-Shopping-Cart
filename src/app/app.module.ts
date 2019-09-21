@@ -12,6 +12,7 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { PaymentsModComponent } from './payments-mod/payments-mod.component';
+import { InventoryModComponent } from './inventory-mod/inventory-mod.component';
 
 
 
@@ -26,7 +27,8 @@ import { PaymentsModComponent } from './payments-mod/payments-mod.component';
     ShoppingListComponent,
     ShoppingEditComponent,
     ShoppingCartComponent,
-    PaymentsModComponent
+    PaymentsModComponent,
+    InventoryModComponent
   ],
   imports: [
     BrowserModule,
