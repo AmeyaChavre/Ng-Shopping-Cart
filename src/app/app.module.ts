@@ -28,7 +28,6 @@ import { InventoryModComponent } from './inventory-mod/inventory-mod.component';
     ShoppingEditComponent,
     ShoppingCartComponent,
     PaymentsModComponent,
-    InventoryModComponent
   ],
   imports: [
     BrowserModule,
