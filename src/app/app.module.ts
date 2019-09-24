@@ -26,8 +26,7 @@ import { InventoryModComponent } from './inventory-mod/inventory-mod.component';
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    ShoppingCartComponent,
-    PaymentsModComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
