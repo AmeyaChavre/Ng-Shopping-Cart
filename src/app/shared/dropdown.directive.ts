@@ -9,7 +9,7 @@ export class DropdownDirective{
 	isOpen = false;
 
 	@HostListener('click') toggleOpen(){
-
+		this.isOpen = !this.isOpen;
 	}
 
 }
