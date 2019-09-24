@@ -5,6 +5,9 @@ import { Directive, HostListener } from '@angular/core';
 })
 
 export class DropdownDirective{
+
+	isOpen = false;
+
 	@HostListener('click') toggleOpen(){
 
 	}
