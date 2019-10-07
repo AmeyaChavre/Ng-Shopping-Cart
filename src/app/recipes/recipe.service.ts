@@ -13,7 +13,7 @@ private recipes: Recipe[] = [
   ];
 
 getRecipes() {
-	return this.recipes;
+	return this.recipes.slice();
 }
 
 
