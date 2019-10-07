@@ -2,7 +2,7 @@ import { Recipe } from './recipe.model';
 
 export class RecipeService {
 
-recipes: Recipe[] = [ 
+private recipes: Recipe[] = [ 
   new Recipe('Hot Dog', 'This is a recipe for Hot Dog', 
   	'https://upload.wikimedia.org/wikipedia/commons/b/b1/Coneyhdog.jpg'), 
   new Recipe('Doughnut', 'This is a recipe for Doughnut', 
