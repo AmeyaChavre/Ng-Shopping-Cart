@@ -12,4 +12,9 @@ private recipes: Recipe[] = [
 
   ];
 
+getRecipes() {
+	return this.recipes;
+}
+
+
 }
