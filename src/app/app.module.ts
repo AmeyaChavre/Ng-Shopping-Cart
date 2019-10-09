@@ -13,6 +13,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { IntegratedModeComponent } from './integrated-mode/integrated-mode.component';
+import { PaymentsModComponent } from './payments-mod/payments-mod.component';
 
 
 
@@ -28,7 +29,8 @@ import { IntegratedModeComponent } from './integrated-mode/integrated-mode.compo
     ShoppingEditComponent,
     ShoppingCartComponent,
     DropdownDirective,
-    IntegratedModeComponent
+    IntegratedModeComponent,
+    PaymentsModComponent
   ],
   imports: [
     BrowserModule,
