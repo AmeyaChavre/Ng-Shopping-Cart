@@ -29,8 +29,7 @@ import { IntegratedModeComponent } from './integrated-mode/integrated-mode.compo
     ShoppingEditComponent,
     ShoppingCartComponent,
     DropdownDirective,
-    IntegratedModeComponent,
-    PaymentsModComponent
+    IntegratedModeComponent
   ],
   imports: [
     BrowserModule,
