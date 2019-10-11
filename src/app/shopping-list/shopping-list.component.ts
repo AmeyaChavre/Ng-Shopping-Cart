@@ -8,6 +8,7 @@ import { Ingredient } from '../shared/ingredient.model';
 })
 export class ShoppingListComponent implements OnInit {
  	ingredients: Ingredient[];
+ 	
   constructor() { }
 
   ngOnInit() {
