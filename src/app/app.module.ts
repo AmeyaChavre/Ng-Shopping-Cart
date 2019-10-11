@@ -13,7 +13,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { IntegratedModeComponent } from './integrated-mode/integrated-mode.component';
-
+import { ShoppingListService } from './shopping-list/shopping-list.service';
 
 
 
