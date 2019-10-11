@@ -36,7 +36,7 @@ import { IntegratedModeComponent } from './integrated-mode/integrated-mode.compo
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [ShoppingListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
