@@ -6,4 +6,8 @@ export class ShoppingListService {
  		new Ingredient("wheat flour",1),
  		new Ingredient("garlic",1)
  	];
+
+ 	getIngredients(){
+ 		
+ 	}
 }
