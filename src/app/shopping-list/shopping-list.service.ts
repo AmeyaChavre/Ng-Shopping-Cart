@@ -1,3 +1,5 @@
+import { Ingredient } from '../shared/ingredient.model';
+
 export class ShoppingListService {
  	ingredients: Ingredient[] = [
  		new Ingredient("mustard",1),
