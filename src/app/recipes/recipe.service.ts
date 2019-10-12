@@ -11,7 +11,8 @@ private recipes: Recipe[] = [
   	'This is a recipe for Hot Dog', 
   	'https://upload.wikimedia.org/wikipedia/commons/b/b1/Coneyhdog.jpg',
   	[
-  		new Ingredient()
+  		new Ingredient('Bread',2),
+
   	]
   	), 
   new Recipe('Doughnut', 
