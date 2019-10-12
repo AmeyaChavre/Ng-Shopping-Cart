@@ -20,13 +20,19 @@ private recipes: Recipe[] = [
   	'This is a recipe for Doughnut', 
     'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Chocolate_Frosted_Donuts_%28Coffee_An%29%2C_Westport%2C_CT_06880_USA_-_Mar_2013.jpg/220px-Chocolate_Frosted_Donuts_%28Coffee_An%29%2C_Westport%2C_CT_06880_USA_-_Mar_2013.jpg',
     [
-
+  		new Ingredient('Flour',2),
+  		new Ingredient('Oil',1),
+  		new Ingredient('Sugar',1),
+  		new Ingredient('Chocolate',1),
+  		new Ingredient('Vanilla',1)
     ]),
   new Recipe('Garlic Bread', 
   	'This is a recipe for Garlic Bread', 
     'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Garlicbread.jpg/235px-Garlicbread.jpg',
     [
-
+  		new Ingredient('Bread',2),
+  		new Ingredient('Garlic',1),
+  		new Ingredient('American Yellow Cheese',1)
     ]), 
 
   ];
