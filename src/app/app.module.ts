@@ -25,7 +25,6 @@ import { ShoppingListService } from './shopping-list/shopping-list.service';
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
-    ShoppingCartComponent,
     DropdownDirective
   ],
   imports: [
