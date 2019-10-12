@@ -12,7 +12,8 @@ private recipes: Recipe[] = [
   	'https://upload.wikimedia.org/wikipedia/commons/b/b1/Coneyhdog.jpg',
   	[
   		new Ingredient('Bread',2),
-
+  		new Ingredient('Sausage',1),
+  		new Ingredient('Mustard',1)
   	]
   	), 
   new Recipe('Doughnut', 
