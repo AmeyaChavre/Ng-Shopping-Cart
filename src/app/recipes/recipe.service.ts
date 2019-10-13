@@ -38,6 +38,10 @@ private recipes: Recipe[] = [
 
   ];
 
+constructor(private slService: ShoppingListService){
+  
+}
+
 getRecipes() {
 	return this.recipes.slice();
 }
