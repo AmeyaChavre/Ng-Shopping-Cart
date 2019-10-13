@@ -41,8 +41,8 @@ getRecipes() {
 	return this.recipes.slice();
 }
 
-addIngredientsToShoppingList(){
-  
+addIngredientsToShoppingList(ingredients: Ingredient[]){
+
 }
 
 }
