@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes } from '@angular/routes';
-import 
+import { RecipesComponent } from './recipes/recipes.component';
 
 const appRoutes: Routes = [
 { path: 'recipes', component: RecipesComponent}
