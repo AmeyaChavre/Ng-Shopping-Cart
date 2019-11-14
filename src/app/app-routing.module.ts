@@ -10,7 +10,7 @@ const appRoutes: Routes = [
 ]; 
 
 @NgModule({
-imports: [RouterModule.forRoot()]
+imports: [RouterModule.forRoot(appRoutes)]
 })
 
 export class AppRoutingModule{
