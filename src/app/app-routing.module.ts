@@ -8,8 +8,8 @@ const appRoutes: Routes = [
 { path: '', redirectTo: '/recipes', pathMatch: 'full' },
 { path: 'recipes', component: RecipesComponent, children: [
 
-{ path: '', component: RecipeStartComponent}
-
+{ path: '', component: RecipeStartComponent},
+{ path: ':id', component: RecipeDetailComponent}
 
 ] },
 { path: 'shopping-list', component: ShoppingListComponent }
