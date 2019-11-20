@@ -48,7 +48,7 @@ getRecipes() {
 }
 
 getRecipe(id: number){
-  return this.recipes[]
+  return this.recipes[id];
 }
 
 addIngredientsToShoppingList(ingredients: Ingredient[]){
