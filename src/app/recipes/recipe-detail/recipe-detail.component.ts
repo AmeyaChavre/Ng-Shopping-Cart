@@ -16,7 +16,8 @@ export class RecipeDetailComponent implements OnInit {
   }
 
   ngOnInit() {
-   
+   this.route.params
+   .subscribe();
   }
 
   onAddToShoppingList(){
