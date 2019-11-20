@@ -16,6 +16,7 @@ export class RecipeDetailComponent implements OnInit {
   }
 
   ngOnInit() {
+    const id = this.route.snapshot.params['id'];
   }
 
   onAddToShoppingList(){
