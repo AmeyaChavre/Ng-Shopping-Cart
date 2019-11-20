@@ -47,6 +47,10 @@ getRecipes() {
 	return this.recipes.slice();
 }
 
+getRecipe(){
+  
+}
+
 addIngredientsToShoppingList(ingredients: Ingredient[]){
   this.slService.addIngredients(ingredients);
 }
