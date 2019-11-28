@@ -16,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 import { EditIngredientsComponent } from './edit-ingredients/edit-ingredients.component';
+import { DeleteIngredientsComponent } from './delete-ingredients/delete-ingredients.component';
 
 
 
@@ -32,7 +33,8 @@ import { EditIngredientsComponent } from './edit-ingredients/edit-ingredients.co
     DropdownDirective,
     RecipeStartComponent,
     RecipeEditComponent,
-    EditIngredientsComponent
+    EditIngredientsComponent,
+    DeleteIngredientsComponent
   ],
   imports: [
     BrowserModule,
