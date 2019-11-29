@@ -17,6 +17,7 @@ import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.compon
 import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 import { EditIngredientsComponent } from './edit-ingredients/edit-ingredients.component';
 import { DeleteIngredientsComponent } from './delete-ingredients/delete-ingredients.component';
+import { AddIngredientsComponent } from './add-ingredients/add-ingredients.component';
 
 
 
@@ -34,7 +35,8 @@ import { DeleteIngredientsComponent } from './delete-ingredients/delete-ingredie
     RecipeStartComponent,
     RecipeEditComponent,
     EditIngredientsComponent,
-    DeleteIngredientsComponent
+    DeleteIngredientsComponent,
+    AddIngredientsComponent
   ],
   imports: [
     BrowserModule,
